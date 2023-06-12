@@ -34,6 +34,10 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    public void saludar(Persona persona) {
+        System.out.println("Hola " + persona.getNombre());
+    }
+
     
 
 }
